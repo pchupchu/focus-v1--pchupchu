@@ -7,6 +7,9 @@ export default {
     './src/app/**/*.{js,ts,jsx,tsx,mdx}',
   ],
   theme: {
+    container: {
+      center: true,
+    },
     extend: {
       colors: {
         accent: '#591ddd',
@@ -14,6 +17,7 @@ export default {
       },
       backgroundImage: {
         body: "url('/body-bg.png')",
+        hero: "url('/hero/img.svg')",
       },
     },
   },
