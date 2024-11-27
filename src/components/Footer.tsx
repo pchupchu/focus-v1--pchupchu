@@ -46,7 +46,7 @@ const Footer = () => {
     <footer className='bg-[#10112f] py-24'>
       <div className='container'>
         <div className='grid grid-cols-1 justify-items-center gap-12 xl:grid-cols-3'>
-          <div className='flex gap-8 justify-self-start'>
+          <div className='flex gap-8 xl:justify-self-start'>
             {icons.map((icon, index) => {
               return (
                 <Link key={index} href={icon.href}>
@@ -56,7 +56,7 @@ const Footer = () => {
             })}
           </div>
           <Logo />
-          <p className='justify-self-end font-light'>
+          <p className='font-light xl:justify-self-end'>
             &copy; 2024 Focus. All rights reserved.
           </p>
         </div>
