@@ -1,6 +1,6 @@
 'use client';
 
-import { ReactLenis } from 'lenis/dist/lenis-react';
+import { ReactLenis } from '@studio-freight/react-lenis';
 
 import Brands from '@/components/Brands';
 import Features from '@/components/Features';
