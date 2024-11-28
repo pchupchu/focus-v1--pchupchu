@@ -49,7 +49,7 @@ const Testimonial = () => {
       <div className='flex items-center justify-center'>
         <div className='overflow-hidden'>
           <motion.div
-            className='text-center'
+            className='px-4 text-center'
             variants={fadeInOnScroll({ duration: 0.2, delay: 0.4 })}
             initial='hidden'
             whileInView='visible'>

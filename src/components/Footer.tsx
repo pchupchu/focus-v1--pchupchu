@@ -45,7 +45,7 @@ const Footer = () => {
   return (
     <footer className='bg-[#10112f] py-24'>
       <div className='container'>
-        <div className='grid grid-cols-1 justify-items-center gap-12 xl:grid-cols-3'>
+        <div className='grid grid-cols-1 justify-items-center gap-12 px-4 xl:grid-cols-3'>
           <div className='flex gap-8 xl:justify-self-start'>
             {icons.map((icon, index) => {
               return (

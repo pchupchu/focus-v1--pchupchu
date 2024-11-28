@@ -15,16 +15,14 @@ const Trial = () => {
         initial='hidden'
         whileInView='visible'>
         <div className='flex w-full flex-col items-center justify-between xl:flex-row xl:px-24'>
-          <div>
-            <div className='mb-12 text-center xl:mb-0 xl:text-left'>
-              <h2 className='mb-2 text-[40px] font-bold leading-tight'>
-                Start your 30-day free trial
-              </h2>
-              <p className='lead max-w-[400px] xl:max-w-[560px]'>
-                Experience the full power of our platform with a 30-day free
-                trial. No credit card required.
-              </p>
-            </div>
+          <div className='mb-12 px-2 text-center xl:mb-0 xl:text-left'>
+            <h2 className='mb-2 text-[40px] font-bold leading-tight'>
+              Start your 30-day free trial
+            </h2>
+            <p className='lead mx-auto max-w-[400px] xl:mx-0 xl:max-w-[560px]'>
+              Experience the full power of our platform with a 30-day free
+              trial. No credit card required.
+            </p>
           </div>
 
           <ButtonTertiary btnText='Get started' />

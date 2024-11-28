@@ -25,17 +25,17 @@ const Hero = () => {
             scale: textScale,
             display: textDisplay,
           }}>
-          <h1 className='max-w-[800px] text-[60px] font-bold capitalize leading-none tracking-[-0.5px] xl:max-w-max'>
+          <h1 className='max-w-[800px] text-[54px] font-bold capitalize leading-none tracking-[-0.5px] xl:max-w-max xl:text-6xl'>
             Boost your productivity instantly
           </h1>
-          <p className='mb-2 max-w-[680px] px-8 text-xl font-light text-white/80 xl:px-0'>
+          <p className='mb-2 max-w-[680px] px-8 text-lg font-light text-white/80 xl:px-0 xl:text-xl'>
             Streamline tasks and manage your time more effortlessly with our
             powerful, intuitive, all in one productivity platform.
           </p>
           <Button btnText='Join today' />
         </motion.div>
         <motion.div
-          className='bg-hero sticky left-0 right-0 mx-auto hidden h-[520px] w-full max-w-[960px] bg-contain bg-center bg-no-repeat xl:flex'
+          className='sticky left-0 right-0 mx-auto hidden h-[520px] w-full max-w-[960px] bg-hero bg-contain bg-center bg-no-repeat xl:flex'
           style={{ top: imgTopPosition, scale: imgScale }}></motion.div>
       </div>
     </section>

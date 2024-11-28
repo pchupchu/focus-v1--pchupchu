@@ -98,7 +98,7 @@ const Integrations = () => {
     <section className='min-h-[720px] py-24 xl:mt-32 xl:py-32'>
       <div className='container flex flex-col items-center justify-center gap-8 xl:gap-16'>
         <motion.div
-          className='text-center'
+          className='px-4 text-center'
           variants={fadeInOnScroll({ duration: 0.2, delay: 0.6 })}
           initial='hidden'
           whileInView='visible'>
